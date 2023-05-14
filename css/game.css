@@ -1,0 +1,177 @@
+/* my laptop's viewport width is 1399 */
+body {
+  margin: 0%;
+  padding: 0%;
+}
+#nav {
+  position: fixed;
+  width: 100vw;
+  height: 90px;
+  background: rgb(0, 116, 0);
+}
+h3 {
+  position: absolute;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+  
+  color: rgb(183, 247, 181);
+  margin-top: 25px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 31px;
+}
+#current {
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
+  font-size: 18px;
+}
+
+#co2 {
+  margin-top: 32px;
+  margin-left: 6px;
+  position: absolute;
+  font-size: 18px;
+}
+
+#level {
+  margin-top: 40px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 0.4%;
+  margin-top: 0px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 31px;
+}
+#cleanCont {
+  width: 10vw;
+  max-width: 150px;
+  margin: 10px;
+  margin-top: 110px;
+}
+#cleanCont p, .plantCard p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+    font-weight: bold;
+    user-select: none;
+}
+#cleanImg {
+  margin-left: 0px;
+  rotate: 180deg;
+  width: 80%;
+  height: auto;
+}
+
+#plantCard1 {
+  max-width: 60px;
+  margin-top: 20px;
+}
+#plantCard2 {
+  max-width: 140px;
+}
+
+#plantCard3 {
+  max-width: 100px;
+}
+
+.plantCard {
+}
+
+.plantPar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buyCont {
+  display: flex;
+  gap: 20px;
+  width: 40vw;
+}
+
+#buyCont img {
+    max-width: 120px;
+}
+
+#boughtCont img {
+    width: 100px;
+}
+/* Images */
+#addPlant1 {
+  width: 60px;
+  height: auto;
+}
+#addPlant2 {
+  width: 92px;
+  height: auto;
+  display: none;
+}
+#addPlant3 {
+  display: none;
+  /* width: 6.4%; */
+}
+#newPlant1 {
+  width: 7%;
+  height: auto;
+}
+#cleanImg, #addPlant1, #addPlant2, #addPlant3, #newPlant1, #newPlant2, #newPlant3 {
+  user-select: none;
+}
+#newPlant3 {
+  width: 6.4%;
+}
+.earth {
+  margin-top: -380px;
+  margin-right: 50px;
+}
+
+.earth img {
+  width: 200px;
+  height: auto;
+  float: right;
+}
+
+
+#boughtCont {
+  height: 60%;
+  width: 600px;
+  overflow: auto;
+}
+
+h4 {
+  position: fixed;
+  width: 20%;
+  font-size: 1.6vw;
+  margin-top: 0%;
+  border-bottom: 1px solid;
+  background: rgb(29, 29, 247);
+}
+#chatP {
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+
+
+.socialLogo {
+  margin-top: 7%;
+  margin-left: 22%; 
+  width: 17%;
+  height: auto;
+}
+
+#main {
+  /* float: right; */
+  background-image: url('Images/earth.png');
+  position: absolute;
+  background: #e2e2e2;
+  width: 1830px;
+  height: 98%;
+}

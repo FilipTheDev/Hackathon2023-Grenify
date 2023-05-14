@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/game.css">
+    <title> Save The Planet </title>
+</head>
+<body>
+            <div id="main">
+                <!-- <div id="chatBot">
+                    <p id="chatP"></p>
+                </div> -->
+                <div id="nav">
+                <h3> Save The Planet </h3>
+                <p id="current"> </p>
+                <p id="co2"> </p>
+            </div>
+            <div id="cleanCont" onclick="workFunc()">
+                    <img id="cleanImg" src="Images/vacuum.png" alt="vacuum">
+                    <p>Clean and earn coins</p>
+            </div>
+            <div id="buyCont">
+                <div id="plantCard1" class="plantCard" >
+                    <img id="addPlant1" onclick="addPlant1(); forNew()" src="Images/plant1.png" alt="Add a Flower">
+                    <p class="plantPar" id="plantPar1">280</p>
+                </div>
+                <div id="plantCard2" class="plantCard" >
+                    <img id="addPlant2" src="Images/plant2.png" onclick="addPlant2()" alt="Add a Bush">
+                    <p class="plantPar" id="plantPar2"></p>
+                </div>
+                <div id="plantCard3" class="plantCard" >
+                    <img id="addPlant3" onclick="addPlant3()" src="Images/plant3.png" alt="Add Little Tree">
+                    <p class="plantPar" id="plantPar3"></p>
+                </div>
+            </div>
+            <div id="boughtCont">
+                <h2> Bought Plants </h2>
+                <p id="level"> </p>
+            </div>
+            <div class="earth">
+                <img src="Images/earth.png" alt="Earth">
+            </div>
+        </div>
+        <script src="js/game.js"></script>
+</body>
+</html>

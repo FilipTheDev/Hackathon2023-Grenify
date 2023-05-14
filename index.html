@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calc.css">
+
+    <title>Greenify</title>
+</head>
+<body>
+    
+    <div class="fullCont">
+        <div class="navbar">
+            <h2>Greenify</h2>
+            <div class="tabsCont">
+            <ul>
+                <li><a href="calc.html">Calculator</a></li>
+                <li><a href="#info"> Content</a></li>
+                <li><a href="https://ituabsorbtech.com/calendar-environmental-days/"> Calendar</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainContent">
+                <h1>Greenify</h1>
+                <p>
+                    Get your environment information here, play and learn
+                </p>
+                <a href="calc.html"><button class="mainSign">Calculate your carbon footprint</button></a>
+            </div>
+            <div class="heroImg">
+                <img src="Images/head.jpg" alt="Healthy environment, healthy mind">
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>Check out:</h2>
+        <div class="cardsCont">
+            <div class="cardCont">
+                <a href="game.html">
+                <img src="Images/saveThePlanet.jpg" alt="Save The Planet">
+                <p>Save The Planet - Game</p>
+                </a>
+            </div>
+
+            <div id="calcImg" class="cardCont">
+                <a href="calc.html">   
+                    <img src="Images/calculator.png" id="newsImg" alt="Latest environment news">
+                    <div><p>Co2 Calculator</p></div>
+                </a>
+            </div>
+
+            <div class="cardCont">
+                <a href="https://www.sciencedaily.com/news/top/environment/">   
+                    <img src="Images/news.png" id="newsImg" alt="Latest environment news">
+                    <div><p>Environmental News</p></div>
+                </a>
+            </div>
+
+            <div class="cardCont">
+                <a href="https://ituabsorbtech.com/calendar-environmental-days/">
+                    <img id="calendarImg" src="Images/calendar.png" alt="Environmental Calendar"></a>
+                    <p>Environmental Calendar</p>
+                </a>
+            </div>
+
+            <div onclick="popupComposting()" class="cardCont">                     
+                <img id="composting" src="Images/composting.jpg" alt="Composting"></a>
+                <p>Composting</p>
+            </div>
+            <div class="cardCont">
+                <a href="#">
+                <img id="recyclePlastic" src="Images/recycle.webp" alt="Recycling Plastic"></a>
+                <p>Recycling Plastic Bottles</p>
+                </a>                       
+            </div>
+
+        </div>
+    </div>
+    <div class="quoteDiv">
+        <blockquote>
+            "Try to leave the earth a better place than you arrived"
+        </blockquote>
+    </div>
+
+    <!-- <div class="ctaDiv">
+        <div class="cta">
+            <div class="ctaText">
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our service by clicking that button over there!</p>
+            </div>
+    </div> -->
+
+    <div id="popupInfoComp" class="popupInfo">
+        <h1>Composting</h1>
+        <button onclick="popdown()"> x</button>
+        <p>
+            Composting is a natural process of breaking down organic matter into nutrient-rich soil. Here are the basic steps for composting: <br>
+<br>
+Choose a location: Select a dry, shady spot for your compost pile or bin. Make sure it is easily accessible, and away from areas where it could become a nuisance to neighbors. <br>
+<br>
+Collect organic waste: Collect food scraps (fruits and vegetables, eggshells, coffee grounds), yard waste (grass clippings, leaves, small twigs), and other organic materials like shredded paper and cardboard. <br>
+<br>
+Build the pile: Start with a layer of twigs or other bulky materials at the bottom, and then add alternating layers of green and brown materials, making sure to moisten each layer as you go. Green materials are high in nitrogen, such as fruit and vegetable scraps and grass clippings. Brown materials are high in carbon, such as dried leaves and straw. <br>
+<br>
+Turn the pile: Use a garden fork or compost aerator to mix the materials in the pile. This helps to introduce oxygen and speed up the decomposition process. <br>
+<br>
+Add water: Keep the pile moist, but not too wet. A good rule of thumb is that it should feel like a damp sponge.<br>
+<br>
+Wait: Depending on the size of the pile and the conditions, it can take anywhere from a few weeks to several months for the compost to be ready. It should look dark and crumbly, with a pleasant earthy smell.<br>
+<br>
+Use the compost: Spread the compost in your garden beds or use it as a top dressing for your lawn.<br>
+<br>
+Remember to avoid adding meat, dairy, and oily foods to your compost pile, as these can attract pests and slow down the composting process. Also, avoid using weed seeds and diseased plants in your compost.<br>
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
